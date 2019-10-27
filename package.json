@@ -1,0 +1,16 @@
+{
+  "name": "react-hooks",
+  "version": "1.0.0",
+  "description": "CRUD application with React Hooks",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd react_hooks && npm start",
+    "backend": "cd Nodejs-Rest-API && npm start",
+    "dev": "concurrently \"npm run backend\" \" npm run frontend\" "
+  },
+  "author": "Laris Popa",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.0.0"
+  }
+}
